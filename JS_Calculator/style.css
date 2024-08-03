@@ -31,7 +31,6 @@ body{
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     padding: 25px;
-
 }
 
 button{
@@ -52,16 +51,35 @@ button:hover{
 
 button:active{
     background-color: hsl(0, 0%, 55%);
+    font-size: 2rem;
 }
 
 .operator-btn{
     background-color: hsl(35, 92%, 55%);
+    color: hsl(195, 84%, 80%);
 }
 
-.operator-btn:hover{
+.operator-btn-clear{
+    background-color: hsl(35, 92%, 55%);
+    color: hsl(0, 67%, 55%);
+}
+
+.operator-btn:hover, .operator-btn-clear:hover{
     background-color: hsl(35, 92%, 65%);
 }
 
-.operator-btn:active{
+.operator-btn:active, .operator-btn-clear:active{
     background-color: hsl(35, 92%, 75%);
+}
+
+.equals{
+    background-color: hsl(120, 64%, 46%);
+}
+
+.equals:hover{
+    background-color: hsl(120, 64%, 56%);
+}
+
+.equals:active{
+    background-color: hsl(120, 64%, 66%);
 }
